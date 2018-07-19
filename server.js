@@ -8,9 +8,6 @@ const profile = require('./routes/api/profile');
 const posts = require('./routes/api/posts');
 
 const app = express();
-// Serve static assets for production
-
-const app = express();
 
 // Body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
